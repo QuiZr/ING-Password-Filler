@@ -1,14 +1,14 @@
 {
   "app_title": {
-    "message": "Moje ING - masked password filler",
+    "message": "Mój Alior Bank - masked password filler",
     "description": "Name of the extension"
   },
   "app_description": {
-    "message": "The add-on allows you to swiftly fill up your login and masked password on the Moje ING website",
+    "message": "The add-on allows you to swiftly fill up your login and masked password on the Mój Alior Bank website",
     "description": "Description of the extension"
   },
   "fill_header_title": {
-    "message": "Moje ING",
+    "message": "Mój Alior Bank",
     "description": "Short title"
   },
   "fill_header_description": {

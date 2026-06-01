@@ -1,14 +1,14 @@
 {
   "app_title": {
-    "message": "Moje ING - wypełniacz maskowanego hasła",
+    "message": "Mój Alior Bank - wypełniacz maskowanego hasła",
     "description": "Nazwa dodatku"
   },
   "app_description": {
-    "message": "Dodatek pozwala szybko uzupełnić login i maskowane hasło na stronie Moje ING",
+    "message": "Dodatek pozwala szybko uzupełnić login i maskowane hasło na stronie Mój Alior Bank",
     "description": "Opis dodatku"
   },
   "fill_header_title": {
-    "message": "Moje ING",
+    "message": "Mój Alior Bank",
     "description": "Krótki tytuł"
   },
   "fill_header_description": {

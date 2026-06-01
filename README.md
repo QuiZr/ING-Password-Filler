@@ -1,6 +1,6 @@
-# <img src="/dist/addon-logo.png" width="48" height="48" /> Moje ING - masked password filler
+# <img src="/dist/addon-logo.png" width="48" height="48" /> Mój Alior Bank - masked password filler
 
-The add-on allows you to enter your full login and password and then fill in the masked login fields on the Moje ING website. It works the best with password managers like KeePass or LastPass.
+The add-on allows you to enter your full login and password and then fill in the masked login fields on the Mój Alior Bank website. It works the best with password managers like KeePass or LastPass.
 
 ### <img src="/dist/chrome-logo.svg" width="48" height="48" /> Chrome Web Store
 

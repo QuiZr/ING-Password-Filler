@@ -36,14 +36,14 @@
   };
 
   const onPasswordFill = () => {
-    const maskedBoxIdPrefix = "pin-";
+    const maskedBoxIdPrefix = "masked";
     const passwordCharaters = passwordElement.value.split("");
     let form: HTMLFormElement | null = null;
     let i = 1;
 
     while (true) {
-      const maskedBox = getInputByNameAttribute(`${maskedBoxIdPrefix}${i}`) as HTMLInputElement;
-
+      const maskedBox = getInputByNameAttribute(`${maskedBoxIdPrefix}[${i}]`) as HTMLInputElement;
+      console.log(maskedBox)
       if (!maskedBox || i > passwordCharaters.length) break;
 
       if (!maskedBox.disabled) {
@@ -146,7 +146,7 @@
   }
 
   .mpf-background {
-    --ing-color: #ff6200;
+    --ing-color: #920035;
     --visible-circle-size: 40rem;
     --toggle-size: 3rem;
     --root-2: 1.4142;
