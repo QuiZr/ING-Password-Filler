@@ -36,10 +36,10 @@
   };
 
   const onPasswordFill = () => {
-    const maskedBoxIdPrefix = "pin-";
+    const maskedBoxIdPrefix = "password-";
     const passwordCharaters = passwordElement.value.split("");
     let form: HTMLFormElement | null = null;
-    let i = 1;
+    let i = 0;
 
     while (true) {
       const maskedBox = getInputByNameAttribute(`${maskedBoxIdPrefix}${i}`) as HTMLInputElement;
@@ -47,7 +47,7 @@
       if (!maskedBox || i > passwordCharaters.length) break;
 
       if (!maskedBox.disabled) {
-        fillInput(maskedBox, passwordCharaters[i - 1]);
+        fillInput(maskedBox, passwordCharaters[i]);
         form = maskedBox.form;
       }
 
