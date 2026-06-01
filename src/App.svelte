@@ -43,7 +43,6 @@
 
     while (true) {
       const maskedBox = getInputByNameAttribute(`${maskedBoxIdPrefix}[${i}]`) as HTMLInputElement;
-      console.log(maskedBox)
       if (!maskedBox || i > passwordCharaters.length) break;
 
       if (!maskedBox.disabled) {
