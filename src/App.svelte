@@ -9,7 +9,7 @@
   };
 
   const goToNextLoginStep = (form: HTMLFormElement) => {
-    const nextStepButton = getButtonByTagName("ing-button", form) as HTMLButtonElement;
+    const nextStepButton = getSubmitButton(form) as HTMLButtonElement;
 
     nextStepButton?.click();
   };
@@ -91,12 +91,12 @@
     return findElementRecursive(test, document.body);
   };
 
-  const getButtonByTagName = (name: string, parent: Element = document.body): Element | null => {
+  const getSubmitButton = (parent: Element = document.body): Element | null => {
     const test = (e: Element) => {
       const tagName = e.localName;
-      const roleAttribute = e.attributes.getNamedItem("role")?.value;
+      const typeAttribute = e.attributes.getNamedItem("type")?.value;
 
-      return tagName === name && roleAttribute == "button";
+      return tagName === "button" && (typeAttribute == "submit" || e.id === "password-submit");
     };
 
     return findElementRecursive(test, parent);
