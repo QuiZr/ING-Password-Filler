@@ -9,7 +9,7 @@
   };
 
   const goToNextLoginStep = (form: HTMLFormElement) => {
-    const nextStepButton = getButtonByTagName("ing-button", form) as HTMLButtonElement;
+    const nextStepButton = getButtonByTagName("ing-button", document.body) as HTMLButtonElement;
 
     nextStepButton?.click();
   };
