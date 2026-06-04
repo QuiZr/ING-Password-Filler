@@ -1,14 +1,14 @@
 {
   "app_title": {
-    "message": "Mój Alior Bank - wypełniacz maskowanego hasła",
+    "message": "Alior Online - wypełniacz maskowanego hasła",
     "description": "Nazwa dodatku"
   },
   "app_description": {
-    "message": "Dodatek pozwala szybko uzupełnić login i maskowane hasło na stronie Mój Alior Bank",
+    "message": "Dodatek pozwala szybko uzupełnić login i maskowane hasło na stronie Alior Online",
     "description": "Opis dodatku"
   },
   "fill_header_title": {
-    "message": "Mój Alior Bank",
+    "message": "Alior Online",
     "description": "Krótki tytuł"
   },
   "fill_header_description": {

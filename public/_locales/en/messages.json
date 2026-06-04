@@ -1,14 +1,14 @@
 {
   "app_title": {
-    "message": "Mój Alior Bank - masked password filler",
+    "message": "Alior Online - masked password filler",
     "description": "Name of the extension"
   },
   "app_description": {
-    "message": "The add-on allows you to swiftly fill up your login and masked password on the Mój Alior Bank website",
+    "message": "The add-on allows you to swiftly fill up your login and masked password on the Alior Online website",
     "description": "Description of the extension"
   },
   "fill_header_title": {
-    "message": "Mój Alior Bank",
+    "message": "Alior Online",
     "description": "Short title"
   },
   "fill_header_description": {

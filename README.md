@@ -1,11 +1,9 @@
-# <img src="/dist/addon-logo.png" width="48" height="48" /> Mój Alior Bank - masked password filler
+# <img src="/dist/addon-logo.png" width="48" height="48" /> Alior Online - masked password filler
 
-The add-on allows you to enter your full login and password and then fill in the masked login fields on the Mój Alior Bank website. It works the best with password managers like KeePass or LastPass.
+The add-on allows you to enter your full login and password and then fill in the masked login fields on the Alior Online website. It works the best with password managers like KeePass or LastPass.
 
 ### <img src="/dist/chrome-logo.svg" width="48" height="48" /> Chrome Web Store
 
-https://chrome.google.com/webstore/detail/moje-ing-masked-password/hjldkhnfpjflmcjfkghnccbhekljalek
 
 ### <img src="/dist/firefox-logo.svg" width="48" height="48" /> Firefox Browser Add-ons
 
-https://addons.mozilla.org/pl/firefox/addon/moje-ing-masked-password/

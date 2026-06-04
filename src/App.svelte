@@ -193,6 +193,10 @@
     margin: 0.8rem 0 !important;
   }
 
+  .mpf-input:focus {
+    background-color: var(--color-form-control-background);
+  }
+
   .mpf-button {
     width: 50%;
     height: 2.8rem;
