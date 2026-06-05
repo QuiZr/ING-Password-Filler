@@ -1,4 +1,4 @@
-# <img src="/dist/addon-logo.png" width="48" height="48" /> Alior Online - masked password filler
+# <img src="/public/images/icon48.png" /> Alior Online - masked password filler
 
 The add-on allows you to enter your full login and password and then fill in the masked login fields on the Alior Online website. It works the best with password managers like KeePass or LastPass.
 
